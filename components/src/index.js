@@ -16,17 +16,21 @@ const App = () => {
       thumbIMG={faker.image.avatar()}/> 
       </ApprovalCard>       
       
+    <ApprovalCard>
       <CommentDetail 
       author="Alex" 
       timeAgo="Today at 2:00AM" 
       commentText="I like 'em a lot." 
-      thumbIMG={faker.image.avatar()}/>       
+      thumbIMG={faker.image.avatar()}/>  
+    </ApprovalCard>     
       
+    <ApprovalCard>
       <CommentDetail 
       author="Jane" 
       timeAgo="Yesterday at 5:00PM" 
       commentText="I like 'em cold..." 
-      thumbIMG={faker.image.avatar()}/>        
+      thumbIMG={faker.image.avatar()}/>    
+    </ApprovalCard>    
 
       
     </div>
