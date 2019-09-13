@@ -3,7 +3,7 @@ import { combineReducers } from 'redux';
 const songsReducer = () => {
     return [
         { title: 'Borderlines', duration: '5:30' },
-        { title: 'Honecomb', duration: '12:00'},
+        { title: 'Honeycomb', duration: '12:00'},
         { title: 'Jake Leg', duration: '5:00'},
         { title: 'Dream House', duration: '9:45'}
     ];
