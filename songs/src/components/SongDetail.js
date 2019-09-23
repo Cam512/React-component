@@ -15,7 +15,7 @@ const SongDetail = ({ song }) => {
             Duration: {song.duration}
             </p>       
         </div>
-    ); 
+    );  
 };
 
 const mapStateToProps = state => {
